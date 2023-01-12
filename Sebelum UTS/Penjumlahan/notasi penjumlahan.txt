@@ -1,0 +1,31 @@
+//judul
+program penjumlahan x dan y
+Muhammad Naufal Abdulmajid
+16 Sept 2022
+
+//kamus
+x 	<= Angka pertama 	<-- Riil
+y 	<= Angka Kedua   	<-- Riil
+total	<= Hasil Penjumlahan	<-- Riil
+
+
+//deskripsi
+
+Output: "Program penjumlahan x dan y  <= Judul
+Output: "--------------------------------------" <= Garis Pemisah
+
+Output: "Masukkan Nilai x" <= Perintah untuk menginput nilai x
+Input : x		   <= Inputkan nilai x
+Output:	"Masukkan Nilai y" <= Perintah untuk menginput nilai y
+Input :	y		   <= Inputkan nilai y
+
+total = x + y	<= rumus untuk menghitung hasil penjumlahan
+
+Output : "==================================="	<= Garis Pemisah
+Output : "Jika nilai x adalah" x		<= menyatakan ulang nilai x
+Output : "dan nilai y adalah" y 		<= menyatakan ulang nilai y
+Output : "hasil penjumlahannya adalah" total	<= menampilkan hasil penjumlahan
+Output : "==================================="	<= Garis Pemisah
+
+
+Output : "-----------------------------------"	<= Garis Penutup

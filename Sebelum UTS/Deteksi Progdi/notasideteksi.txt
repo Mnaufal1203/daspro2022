@@ -1,0 +1,54 @@
+//judul
+//deteksi Prodi
+//Muhammad Naufal Abdulmajid
+//9 Okt 2022
+//rumah
+//A11 = FIK S1 Teknik Informatika
+//A21 = FIK D3 Manajemen Informatika
+//B11 = FEB S1 Manajemen
+//B21 = FEB D3 Akutansi
+
+//kamus
+fak	<-- Character //fakultas
+prodi	<-- String    //program studi	
+
+
+//deskripsi
+input <fak>
+depend on fak
+	fak = "a" output: 
+			input <prodi>
+			IF (a11) THEN
+				{
+                                output: "Fakultas Anda Adalah Fakultas Ilmu Komputer"
+					"Program Studi Anda Adalah Teknik Informatika S1."
+				}
+			ELSE IF (a21) THEN
+				{
+ 				output: "Fakultas Anda Adalah Fakultas Ilmu Komputer"
+					"Program Studi Anda Adalah Manajemen Informatika D3."
+				}
+			ELSE   
+				{
+                                output: "Fakultas Anda Adalah Fakultas Ilmu Komputer"
+					"Input Prodi Salah"
+				}
+			
+	fak = "b" output:
+			input <prodi>
+			IF (b11) THEN
+				{
+                                output: "Fakultas Anda Adalah Fakultas Ekonomi dan Bisnis"
+					"Program Studi Anda Adalah Manajemen S1."
+				}
+			ELSE IF (b21) THEN
+				{
+                                output: "Fakultas Anda Adalah Fakultas Ekonomi dan Bisnis"
+					"Program Studi Anda Adalah Akuntansi D3."
+				}
+			ELSE
+				{
+                                output: "Fakultas Anda Adalah Fakultas Ekonomi dan Bisnis"
+					"Input Prodi Salah"
+				)
+	

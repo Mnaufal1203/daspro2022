@@ -1,0 +1,132 @@
+//judul
+//program sederhana aritmatika
+//Muhammad Naufal Abdulmajid
+//25 september 2022
+//di rumah
+
+//kamus
+kali	<-- integer
+bagi	<-- integer
+kurang	<-- integer
+jumlah	<-- integer
+angka1, angka2 <-- integer
+
+//deskripsi
+output "Program Aritmatika Sederhana"
+output "---------------------------------------------------------------------------------"
+output "Masukkan Nilai Bilangan Pertama"
+input	<angka1>
+output "Masukkan Nilai Bilangan Pertama"
+input	<angka2>
+output "---------------------------------------------------------------------------------"
+output "Perkalian"
+
+kali = <angka1> x <angka2>
+output "Hasil dari <angka1> dikali <angka2> adalah <kali>"
+	IF (kali = Genap Positif) THEN
+				{
+				output "yang merupakan bilangan Genap Positif"
+		  		}		     
+	ELSE IF (kali = Ganjil Positif) THEN
+		  		{						          
+				output "yang merupakan bilangan Ganjil Positif"
+		  		}						         
+	ELSE IF (kali = Genap Negatif) THEN
+		 		{									          
+				output "yang merupakan bilangan Genap Negatif"
+		  		}									    
+	ELSE IF (kali = Ganjil Negatif) THEN
+		  		{												   
+				output "yang merupakan bilangan Ganjil Negatif"
+		  		}
+	ELSE
+				{
+				output "yang bukan merupakan bilangan Genap maupun Ganjil"
+				}												    
+																      
+output "---------------------------------------------------------------------------------"
+output "Pembagian (dibulatkan kebawah)"
+	
+	IF (angka2 = 0) THEN
+		{
+		output "TIDAK BISA MEMBAGI DENGAN NOL."
+                }
+
+	ELSE
+		{
+		bagi = <angka1> / <angka2>
+		output "Hasil dari <angka1> dibagi <angka2> adalah <bagi>"
+			IF (bagi = Genap Positif) THEN
+				{
+				output "yang merupakan bilangan Genap Positif"
+		  		}		     
+			ELSE IF (bagi = Ganjil Positif) THEN
+		  		{						          
+				output "yang merupakan bilangan Ganjil Positif"
+		  		}						         
+			ELSE IF (bagi = Genap Negatif) THEN
+		 		{									          
+				output "yang merupakan bilangan Genap Negatif"
+		  		}									    
+			ELSE IF (bagi = Ganjil Negatif) THEN
+		  		{												   
+				output "yang merupakan bilangan Ganjil Negatif"
+		  		}
+			ELSE
+				{
+				output "yang bukan merupakan bilangan Genap maupun Ganjil"
+				}												    
+		}					
+output "---------------------------------------------------------------------------------"
+output "Pengurangan"
+
+kurang = <angka1> - <angka2>
+output "Hasil dari <angka1> ditambah <angka2> adalah <kurang>"
+	IF (kurang = Genap Positif) THEN
+				{
+				output "yang merupakan bilangan Genap Positif"
+		  		}		     
+	ELSE IF (kurang = Ganjil Positif) THEN
+		  		{						          
+				output "yang merupakan bilangan Ganjil Positif"
+		  		}						         
+	ELSE IF (kurang = Genap Negatif) THEN
+		 		{									          
+				output "yang merupakan bilangan Genap Negatif"
+		  		}									    
+	ELSE IF (kurang = Ganjil Negatif) THEN
+		  		{												   
+				output "yang merupakan bilangan Ganjil Negatif"
+		  		}
+	ELSE
+				{
+				output "yang bukan merupakan bilangan Genap maupun Ganjil"
+				}												    
+								
+output "---------------------------------------------------------------------------------"
+output "Penjumlahan"
+
+tambah = <angka1> + <angka2>
+output "Hasil dari <angka1> ditambah <angka2> adalah <jumlah>"
+	IF (tambah = Genap Positif) THEN
+				{
+				output "yang merupakan bilangan Genap Positif"
+		  		}		     
+	ELSE IF (tambah = Ganjil Positif) THEN
+		  		{						          
+				output "yang merupakan bilangan Ganjil Positif"
+		  		}						         
+	ELSE IF (tambah = Genap Negatif) THEN
+		 		{									          
+				output "yang merupakan bilangan Genap Negatif"
+		  		}									    
+	ELSE IF (tambah = Ganjil Negatif) THEN
+		  		{												   
+				output "yang merupakan bilangan Ganjil Negatif"
+		  		}
+	ELSE
+				{
+				output "yang bukan merupakan bilangan Genap maupun Ganjil"
+				}												    
+								
+output "---------------------------------------------------------------------------------"

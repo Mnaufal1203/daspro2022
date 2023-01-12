@@ -1,0 +1,35 @@
+//judul
+//nama dan jenis kelamin
+//Muhammad Naufal Abdulmajid
+//25 sept 2022
+//rumah
+
+//kamus
+nama <= string
+jk   <= character
+
+
+//deskripsi
+output	: "Program Sederhana Nama dan Jenis Kelamin"
+output	: "----------------------------------------"
+output	: "Masukkan Nama Anda : "
+input   : nama
+
+output	: "Pilih jenis kelamin (p/l)"
+input  	: jk
+
+output	: "----------------------------------------"
+	
+	IF (jk=p) then
+	   {
+	   output: "Halo <nama>, Jenis Kelamin Perempuan"	
+	   }
+		ELSE if (jk=l) then
+			{
+			output: "Halo <nama>, Jenis Kelamin Laki-Laki" 
+			}
+			ELSE
+			    {
+			    output: "Halo <nama>"
+			    output: "Input Jenis Kelamin Salah."
+			    }

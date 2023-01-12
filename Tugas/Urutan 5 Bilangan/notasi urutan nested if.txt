@@ -1,0 +1,553 @@
+//judul
+Program Urutan 5 Bilangan
+Muhammad Naufal Abdulmajid
+9 Oktober 2022
+dirumah
+
+//kamus
+a, b, c, d, e  <------ Integer
+
+//deskripsi
+
+Inputkan Bilangan Pertama
+Input  : <a>
+Inputkan Bilangan Kedua
+Input  : <b>
+Inputkan Bilangan Ketiga
+Input  : <c>
+Inputkan Bilangan Keempat
+Input  : <d>
+Inputkan Bilangan Kelima
+Input  : <e>
+
+IF (a > b) THEN
+{
+	IF (b > c) THEN
+		{
+		IF (c > d) THEN
+			{
+			IF (d > e) THEN
+				{
+				output "Urutan 5 Bilangan Tersebut Adalah : <e>, <d>, <c>, <b>, <a>
+				}
+			ELSE IF (e > d) THEN
+				{
+				output "Urutan 5 Bilangan Tersebut Adalah : <d>, <e>, <c>, <b>, <a>
+				}
+			}
+		ELSE IF (d > c) THEN
+			{
+			IF (c > e) THEN
+				{
+				output "Urutan 5 Bilangan Tersebut Adalah : <e>, <c>, <d>, <b>, <a>
+				}
+			ELSE IF (e > c) THEN
+				{
+				output "Urutan 5 Bilangan Tersebut Adalah : <c>, <e>, <d>, <b>, <a>
+				}
+			}
+		}
+	ELSE IF (c > b) THEN
+		{
+		IF (b > d) THEN
+			{
+			IF (d > e) THEN
+				{
+				output "Urutan 5 Bilangan Tersebut Adalah : <e>, <d>, <b>, <c>, <a>
+				}
+			ELSE IF (e > d) THEN
+				{
+				output "Urutan 5 Bilangan Tersebut Adalah : <d>, <e>, <b>, <c>, <a>
+				}
+			}
+		ELSE IF (d > b) THEN
+			{
+			IF (b > e) THEN
+				{
+				output "Urutan 5 Bilangan Tersebut Adalah : <e>, <b>, <d>, <c>, <a>
+				}
+			ELSE IF (e > b) THEN
+				{
+				output "Urutan 5 Bilangan Tersebut Adalah : <b>, <e>, <d>, <c>, <a>
+				}
+		
+			}
+		}
+	ELSE IF (d > b) THEN
+		{
+		IF (b > c) THEN
+			{
+			IF (c > e) THEN
+				{
+				output "Urutan 5 Bilangan Tersebut Adalah : <e>, <c>, <b>, <d>, <a>
+				}
+			ELSE IF (e > c) THEN
+				{
+				output "Urutan 5 Bilangan Tersebut Adalah : <c>, <e>, <b>, <d>, <a>
+				}
+			}
+		ELSE IF (c > b) THEN
+			{
+			IF (b > e) THEN
+				{
+				output "Urutan 5 Bilangan Tersebut Adalah : <e>, <b>, <c>, <d>, <a>
+				}
+			ELSE IF (e > b) THEN
+				{
+				output "Urutan 5 Bilangan Tersebut Adalah : <b>, <e>, <c>, <d>, <a>
+				}
+			}
+		}
+	ELSE IF (e > b) THEN
+		{
+		IF (b > c) THEN
+			{
+			IF (c > d) THEN
+				{
+				output "Urutan 5 Bilangan Tersebut Adalah : <d>, <c>, <b>, <e>, <a>
+				}
+			ELSE IF (d > c) THEN
+				{
+				output "Urutan 5 Bilangan Tersebut Adalah : <c>, <d>, <b>, <e>, <a>
+				}
+			}
+		ELSE IF (c > b) THEN
+			{
+			IF (b > d) THEN
+				{
+				output "Urutan 5 Bilangan Tersebut Adalah : <d>, <b>, <c>, <e>, <a>
+				}
+			ELSE IF (d > b) THEN
+				{
+				output "Urutan 5 Bilangan Tersebut Adalah : <b>, <d>, <c>, <e>, <a>
+				}
+			}
+		}
+		
+}
+
+ELSE IF (b > a) THEN //sama seperti (a > b) , hanya saja a dirubah menjadi b, dan b dirubah menjadi a
+{
+	IF (a > c) THEN
+		{
+		IF (c > d) THEN
+			{
+			IF (d > e) THEN
+				{
+				output "Urutan 5 Bilangan Tersebut Adalah : <e>, <d>, <c>, <a>, <b>
+				}
+			ELSE IF (e > d) THEN
+				{
+				output "Urutan 5 Bilangan Tersebut Adalah : <d>, <e>, <c>, <a>, <b>
+				}
+			}
+		ELSE IF (d > c) THEN
+			{
+			IF (c > e) THEN
+				{
+				output "Urutan 5 Bilangan Tersebut Adalah : <e>, <c>, <d>, <a>, <b>
+				}
+			ELSE IF (e > c) THEN
+				{
+				output "Urutan 5 Bilangan Tersebut Adalah : <c>, <e>, <d>, <a>, <b>
+				}
+			}
+		}
+	ELSE IF (c > a) THEN
+		{
+		IF (a > d) THEN
+			{
+			IF (d > e) THEN
+				{
+				output "Urutan 5 Bilangan Tersebut Adalah : <e>, <d>, <a>, <c>, <b>
+				}
+			ELSE IF (e > d) THEN
+				{
+				output "Urutan 5 Bilangan Tersebut Adalah : <d>, <e>, <a>, <c>, <b>
+				}
+			}
+		ELSE IF (d > a) THEN
+			{
+			IF (a > e) THEN
+				{
+				output "Urutan 5 Bilangan Tersebut Adalah : <e>, <a>, <d>, <c>, <b>
+				}
+			ELSE IF (e > a) THEN
+				{
+				output "Urutan 5 Bilangan Tersebut Adalah : <a>, <e>, <d>, <c>, <b>
+				}
+		
+			}
+		}
+
+	ELSE IF (d > a) THEN
+		{
+		IF (a > c) THEN
+			{
+			IF (c > e) THEN
+				{
+				output "Urutan 5 Bilangan Tersebut Adalah : <e>, <c>, <a>, <d>, <b>
+				}
+			ELSE IF (e > c) THEN
+				{
+				output "Urutan 5 Bilangan Tersebut Adalah : <c>, <e>, <a>, <d>, <b>
+				}
+			}
+		ELSE IF (c > a) THEN
+			{
+			IF (a > e) THEN
+				{
+				output "Urutan 5 Bilangan Tersebut Adalah : <e>, <a>, <c>, <d>, <b>
+				}
+			ELSE IF (e > a) THEN
+				{
+				output "Urutan 5 Bilangan Tersebut Adalah : <a>, <e>, <c>, <d>, <b>
+				}
+			}
+		}
+	ELSE IF (e > a) THEN
+		{
+		IF (a > c) THEN
+			{
+			IF (c > d) THEN
+				{
+				output "Urutan 5 Bilangan Tersebut Adalah : <d>, <c>, <a>, <e>, <b>
+				}
+			ELSE IF (d > c) THEN
+				{
+				output "Urutan 5 Bilangan Tersebut Adalah : <c>, <d>, <a>, <e>, <b>
+				}
+			}
+		ELSE IF (c > a) THEN
+			{
+			IF (a > d) THEN
+				{
+				output "Urutan 5 Bilangan Tersebut Adalah : <d>, <a>, <c>, <e>, <b>
+				}
+			ELSE IF (d > a) THEN
+				{
+				output "Urutan 5 Bilangan Tersebut Adalah : <a>, <d>, <c>, <e>, <b>
+				}
+			}
+		}
+		
+}
+
+ELSE IF (c > a) THEN //sama seperti (a > b) , hanya saja a dirubah menjadi c, b dirubah menjadi a, dan c dirubah menjadi b
+{
+	IF (a > b) THEN
+		{
+		IF (b > d) THEN
+			{
+			IF (d > e) THEN
+				{
+				output "Urutan 5 Bilangan Tersebut Adalah : <e>, <d>, <b>, <a>, <c>
+				}
+			ELSE IF (e > d) THEN
+				{
+				output "Urutan 5 Bilangan Tersebut Adalah : <d>, <e>, <b>, <a>, <c>
+				}
+			}
+		ELSE IF (d > b) THEN
+			{
+			IF (b > e) THEN
+				{
+				output "Urutan 5 Bilangan Tersebut Adalah : <e>, <b>, <d>, <a>, <c>
+				}
+			ELSE IF (e > b) THEN
+				{
+				output "Urutan 5 Bilangan Tersebut Adalah : <b>, <e>, <d>, <a>, <c>
+				}
+			}
+		}
+	ELSE IF (b > a) THEN
+		{
+		IF (a > d) THEN
+			{
+			IF (d > e) THEN
+				{
+				output "Urutan 5 Bilangan Tersebut Adalah : <e>, <d>, <a>, <b>, <c>
+				}
+			ELSE IF (e > d) THEN
+				{
+				output "Urutan 5 Bilangan Tersebut Adalah : <d>, <e>, <a>, <b>, <c>
+				}
+			}
+		ELSE IF (d > a) THEN
+			{
+			IF (a > e) THEN
+				{
+				output "Urutan 5 Bilangan Tersebut Adalah : <e>, <a>, <d>, <b>, <c>
+				}
+			ELSE IF (e > a) THEN
+				{
+				output "Urutan 5 Bilangan Tersebut Adalah : <a>, <e>, <d>, <b>, <c>
+				}
+		
+			}
+		}
+	ELSE IF (d > a) THEN
+		{
+		IF (a > b) THEN
+			{
+			IF (b > e) THEN
+				{
+				output "Urutan 5 Bilangan Tersebut Adalah : <e>, <b>, <a>, <d>, <c>
+				}
+			ELSE IF (e > b) THEN
+				{
+				output "Urutan 5 Bilangan Tersebut Adalah : <b>, <e>, <a>, <d>, <c>
+				}
+			}
+		ELSE IF (b > a) THEN
+			{
+			IF (a > e) THEN
+				{
+				output "Urutan 5 Bilangan Tersebut Adalah : <e>, <a>, <b>, <d>, <c>
+				}
+			ELSE IF (e > a) THEN
+				{
+				output "Urutan 5 Bilangan Tersebut Adalah : <a>, <e>, <b>, <d>, <c>
+				}
+			}
+		}
+	ELSE IF (e > a) THEN
+		{
+		IF (a > b) THEN
+			{
+			IF (b > d) THEN
+				{
+				output "Urutan 5 Bilangan Tersebut Adalah : <d>, <b>, <a>, <e>, <c>
+				}
+			ELSE IF (d > b) THEN
+				{
+				output "Urutan 5 Bilangan Tersebut Adalah : <b>, <d>, <a>, <e>, <c>
+				}
+			}
+		ELSE IF (b > a) THEN
+			{
+			IF (a > d) THEN
+				{
+				output "Urutan 5 Bilangan Tersebut Adalah : <d>, <a>, <b>, <e>, <c>
+				}
+			ELSE IF (d > a) THEN
+				{
+				output "Urutan 5 Bilangan Tersebut Adalah : <a>, <d>, <b>, <e>, <c>
+				}
+			}
+		}
+		
+}
+
+
+ELSE IF (d > a) THEN //sama seperti (a > b) , hanya saja a dirubah menjadi d, b dirubah menjadi a, dan c dirubah menjadi b, dan d dirubah menjadi c
+{
+	IF (a > b) THEN
+		{
+		IF (b > c) THEN
+			{
+			IF (d > e) THEN
+				{
+				output "Urutan 5 Bilangan Tersebut Adalah : <e>, <c>, <b>, <a>, <d>
+				}
+			ELSE IF (e > c) THEN
+				{
+				output "Urutan 5 Bilangan Tersebut Adalah : <c>, <e>, <b>, <a>, <d>
+				}
+			}
+		ELSE IF (c > b) THEN
+			{
+			IF (b > e) THEN
+				{
+				output "Urutan 5 Bilangan Tersebut Adalah : <e>, <b>, <c>, <a>, <d>
+				}
+			ELSE IF (e > b) THEN
+				{
+				output "Urutan 5 Bilangan Tersebut Adalah : <b>, <e>, <c>, <a>, <d>
+				}
+			}
+		}
+	ELSE IF (b > a) THEN
+		{
+		IF (a > c) THEN
+			{
+			IF (c > e) THEN
+				{
+				output "Urutan 5 Bilangan Tersebut Adalah : <e>, <c>, <a>, <b>, <d>
+				}
+			ELSE IF (e > c) THEN
+				{
+				output "Urutan 5 Bilangan Tersebut Adalah : <c>, <e>, <a>, <b>, <d>
+				}
+			}
+		ELSE IF (c > a) THEN
+			{
+			IF (a > e) THEN
+				{
+				output "Urutan 5 Bilangan Tersebut Adalah : <e>, <a>, <c>, <b>, <d>
+				}
+			ELSE IF (a > e) THEN
+				{
+				output "Urutan 5 Bilangan Tersebut Adalah : <a>, <e>, <c>, <b>, <d>
+				}
+		
+			}
+		}
+	ELSE IF (c > a) THEN
+		{
+		IF (a > b) THEN
+			{
+			IF (b > e) THEN
+				{
+				output "Urutan 5 Bilangan Tersebut Adalah : <e>, <b>, <a>, <c>, <d>
+				}
+			ELSE IF (e > b) THEN
+				{
+				output "Urutan 5 Bilangan Tersebut Adalah : <b>, <e>, <a>, <c>, <d>
+				}
+			}
+		ELSE IF (b > a) THEN
+			{
+			IF (a > e) THEN
+				{
+				output "Urutan 5 Bilangan Tersebut Adalah : <e>, <a>, <b>, <c>, <d>
+				}
+			ELSE IF (e > a) THEN
+				{
+				output "Urutan 5 Bilangan Tersebut Adalah : <a>, <e>, <b>, <c>, <d>
+				}
+			}
+		}
+	ELSE IF (e > a) THEN
+		{
+		IF (a > b) THEN
+			{
+			IF (b > c) THEN
+				{
+				output "Urutan 5 Bilangan Tersebut Adalah : <c>, <b>, <a>, <e>, <d>
+				}
+			ELSE IF (c > b) THEN
+				{
+				output "Urutan 5 Bilangan Tersebut Adalah : <b>, <c>, <a>, <e>, <d>
+				}
+			}
+		ELSE IF (b > a) THEN
+			{
+			IF (a > c) THEN
+				{
+				output "Urutan 5 Bilangan Tersebut Adalah : <c>, <a>, <b>, <e>, <d>
+				}
+			ELSE IF (c > a) THEN
+				{
+				output "Urutan 5 Bilangan Tersebut Adalah : <a>, <c>, <b>, <e>, <d>
+				}
+			}
+		}
+		
+}
+
+ELSE IF (e > a) THEN //sama seperti (a > b) , hanya saja a dirubah menjadi e, b dirubah menjadi a, dan c dirubah menjadi b, d dirubah menjadi c, dan e dirubah menjadi d
+{
+	IF (a > b) THEN
+		{
+		IF (b > c) THEN
+			{
+			IF (c > d) THEN
+				{
+				output "Urutan 5 Bilangan Tersebut Adalah : <d>, <c>, <b>, <a>, <e>
+				}
+			ELSE IF (d > c) THEN
+				{
+				output "Urutan 5 Bilangan Tersebut Adalah : <c>, <d>, <b>, <a>, <e>
+				}
+			}
+		ELSE IF (c > b) THEN
+			{
+			IF (b > d) THEN
+				{
+				output "Urutan 5 Bilangan Tersebut Adalah : <d>, <b>, <c>, <a>, <e>
+				}
+			ELSE IF (d > b) THEN
+				{
+				output "Urutan 5 Bilangan Tersebut Adalah : <b>, <d>, <c>, <a>, <e>
+				}
+			}
+		}
+	ELSE IF (b > a) THEN
+		{
+		IF (a > c) THEN
+			{
+			IF (c > d) THEN
+				{
+				output "Urutan 5 Bilangan Tersebut Adalah : <d>, <c>, <a>, <b>, <e>
+				}
+			ELSE IF (d > c) THEN
+				{
+				output "Urutan 5 Bilangan Tersebut Adalah : <c>, <d>, <a>, <b>, <e>
+				}
+			}
+		ELSE IF (c > a) THEN
+			{
+			IF (a > d) THEN
+				{
+				output "Urutan 5 Bilangan Tersebut Adalah : <d>, <a>, <c>, <b>, <e>
+				}
+			ELSE IF (d > a) THEN
+				{
+				output "Urutan 5 Bilangan Tersebut Adalah : <a>, <d>, <c>, <b>, <e>
+				}
+		
+			}
+		}
+	ELSE IF (c > a) THEN
+		{
+		IF (a > b) THEN
+			{
+			IF (b > d) THEN
+				{
+				output "Urutan 5 Bilangan Tersebut Adalah : <d>, <b>, <a>, <c>, <e>
+				}
+			ELSE IF (d > b) THEN
+				{
+				output "Urutan 5 Bilangan Tersebut Adalah : <b>, <d>, <a>, <c>, <e>
+				}
+			}
+		ELSE IF (b > a) THEN
+			{
+			IF (a > d) THEN
+				{
+				output "Urutan 5 Bilangan Tersebut Adalah : <d>, <a>, <b>, <c>, <e>
+				}
+			ELSE IF (d > a) THEN
+				{
+				output "Urutan 5 Bilangan Tersebut Adalah : <a>, <d>, <b>, <c>, <e>
+				}
+			}
+		}
+	ELSE IF (d > a) THEN
+		{
+		IF (a > b) THEN
+			{
+			IF (b > c) THEN
+				{
+				output "Urutan 5 Bilangan Tersebut Adalah : <c>, <b>, <a>, <d>, <e>
+				}
+			ELSE IF (c > b) THEN
+				{
+				output "Urutan 5 Bilangan Tersebut Adalah : <b>, <c>, <a>, <d>, <e>
+				}
+			}
+		ELSE IF (b > a) THEN
+			{
+			IF (a > c) THEN
+				{
+				output "Urutan 5 Bilangan Tersebut Adalah : <c>, <a>, <b>, <d>, <e>
+				}
+			ELSE IF (c > a) THEN
+				{
+				output "Urutan 5 Bilangan Tersebut Adalah : <a>, <c>, <b>, <d>, <e>
+				}
+			}
+		}
+		
+}

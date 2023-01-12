@@ -1,0 +1,63 @@
+//judul
+Program Biodata Muhammad Naufal Abdulmajid
+Muhammad Naufal Abdulmajid
+16 Sept 2022
+
+//kamus
+Nomor Induk Mahasiswa ( NIM )	:	A11.2022.14727
+Nama Mahasiswa			:	MUHAMMAD NAUFAL ABDULMAJID
+Jalur Pendaftaran		:	Reguler
+Status				:	Aktif
+Tempat,Tanggal Lahir		:	JEPARA, 12 Maret 2004
+Alamat Asal			:	JALAN GEMAHARJO 2
+Kode Pos Asal			:	59415
+Alamat Semarang			:	Jl. Kyai Saleh No.62, Mugassari, Kec. Semarang Sel., Kota Semarang, Jawa Tengah 50243
+Kode Pos Semarang		:	50243
+No HP Mahasiswa			:	081315126214
+Email Mahasiswa			:	111202214727@mhs.dinus.ac.id
+Email Lain			:	naufal120304@gmail.com
+Warga Negara			:	WNI
+Agama				:	Islam
+Golongan Darah			:	AB
+Status Marital			:	Belum Menikah
+Kelas Pagi/Malam		:	Pagi
+Dosen Wali			:	WISE HEROWATI, M.Kom
+Alamat Orang Tua		:	JALAN GEMAHARJO 2
+Nama Ayah			:	EKO CAHYO PUSPENO
+Tempat,Tanggal Lahir Ayah	:	Purwokerto,19 Februari 1977
+No Telepon  Ayah		:	08122854879
+Nama Ibu			:	IMA NURHAYATI
+Tempat,Tanggal Lahir Ibu	:	Semarang,4 Januari 1976
+No Telepon Ibu			:	081326645781
+	
+//deskripsi
+
+Output: "Program penjumlahan x dan y  <= Judul
+Output: "--------------------------------------" <= Garis Pemisah
+
+Output: "Nomor Induk Mahasiswa ( NIM )	:	A11.2022.14727"
+Output: "Nama Mahasiswa			:	MUHAMMAD NAUFAL ABDULMAJID"
+Output: "Jalur Pendaftaran		:	Reguler"
+Output: "Status				:	Aktif"
+Output: "Tempat,Tanggal Lahir		:	JEPARA, 12 Maret 2004"
+Output: "Alamat Asal			:	JALAN GEMAHARJO 2"
+Output: "Kode Pos Asal			:	59415"
+Output: "Alamat Semarang		:	Jl. Kyai Saleh No.62, Mugassari, Kec. Semarang Sel., Kota Semarang, Jawa Tengah 50243"
+Output: "Kode Pos Semarang		:	50243"
+Output: "No HP Mahasiswa		:	081315126214"
+Output: "Email Lain			:	naufal120304@gmail.com"
+Output: "Warga Negara			:	WNI"
+Output: "Agama				:	Islam"
+Output: "Golongan Darah			:	AB"
+Output: "Status Marital			:	Belum Menikah"
+Output: "Kelas Pagi/Malam		:	Pagi"
+Output: "Dosen Wali			:	WISE HEROWATI, M.Kom"
+Output: "Alamat Orang Tua		:	JALAN GEMAHARJO 2"
+Output: "Nama Ayah			:	EKO CAHYO PUSPENO"
+Output: "Tempat,Tanggal Lahir Ayah	:	Purwokerto,19 Februari 1977"
+Output: "No Telepon  Ayah			:	08122854879"
+Output: "Nama Ibu			:	IMA NURHAYATI"
+Output: "Tempat,Tanggal Lahir Ibu	:	Semarang,4 Januari 1976"
+Output: "No Telepon Ibu			:	081326645781"
+
+Output : "-----------------------------------"	<= Garis Penutup

@@ -1,0 +1,16 @@
+//judul
+    //Kelipatan 6
+    //Muhammad Naufal Abdulmajid
+    //10 Okt 2022
+    //kost
+    //task: angka kelipatan 6, 0-100
+
+//kamus
+x <-- integer
+
+//deskripsi
+x <-- 6
+while (x <= 100) do
+	output <x>
+	x <-- x + 6
+{x > 100}
